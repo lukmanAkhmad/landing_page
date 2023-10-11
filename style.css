@@ -1,0 +1,198 @@
+/* * {
+    border:1px solid cyan;
+} */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;    
+}
+/* Header */
+header.kepala {
+    background-color: #1f2937;
+    
+}
+/* Header nav */
+nav.navigasi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin: 0;
+    background-color: #1f2937;
+    margin: 0;
+    
+}
+div.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    
+}
+ul.links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+/* Header nav selesai  */
+/* Header content */
+div.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    background-color: #1f2937;
+    
+}
+p.information-text {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: #f9faf8;
+}
+button.tombol-satu {
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+    background-color: #3882f6;
+    color: white;
+}
+/* Header content selesai */
+/* Header Selesai */
+/* Article satu */
+div.article-satu {
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+h1.judul-satu {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 0;
+    padding: 14px;
+}
+div.container-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 14px;
+}
+div.info {
+    display: flex;
+    max-width: 135px;
+    text-align: center;
+    flex-wrap: wrap;  
+}
+/* Article satu selesai */
+/* Article dua */
+div.article-dua {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #e5e7eb;
+}
+div.text-article-dua {
+    text-align: justify;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    max-width: 750px;
+    margin: 42px;
+    
+}
+div.odin {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: bold;
+}
+cite {
+    font-style: normal;
+}
+/* Article dua selesai */
+/* Article tiga */
+div.article-tiga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    color: #f9faf8;
+}
+div.container-modal-satu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3883f6;
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    height: 150px;
+    width: 950px;
+}
+div.container-modal-tiga {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-right: 98px;
+}
+div.text-modal-satu {
+    align-items: center;
+    justify-content: center;
+}
+div.text-modal-dua {
+    font-size: 24px;
+    font-weight: normal;
+}
+div.container-modal-dua {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+button.button-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3883f6;
+    border-radius: 5px;
+    color:#f9faf8;
+    border:2px solid #f9faf8;
+    font-size: 24px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 2px;
+    padding-bottom: 2px;    
+}
+div.container-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Article tiga selesai */
+footer.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 18px;
+}
